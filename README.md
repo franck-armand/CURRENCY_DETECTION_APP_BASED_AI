@@ -1,7 +1,7 @@
-## CURRENCY_DETECTION_APP_BASED_AI
-
-**THE DESIGN AND IMPLEMENTATION OF AN IMAGE BASED PAPER CURRENCY DETECTION SYSTEM**
-
+## *CURRENCY_DETECTION_APP_BASED_AI*
+---
+**_THE DESIGN AND IMPLEMENTATION OF AN IMAGE BASED PAPER CURRENCY DETECTION SYSTEM_**
+---
 
 Despite the fact that the world is moving at an incredible rate toward the cashless payment, paper currencies still play a major role in our daily transactions due to its convenience. However, being able to correctly identify banknotes remains an issue for individuals visually impaired or blind due to the variant shape and texture of paper currency. Different techniques have been used by researchers to successfully recognize banknotes. Among those, algorithms and systems such as Scale Invariant Feature Transform (SIFT) and Currency Recognition System For Visually Impaired (CRSFVI) applied to Jordanian and Egyptian currency respectively achieve 71% and 89% accuracy
 
@@ -9,8 +9,9 @@ a paper currency detection system (PCDS) is designed to detect the Chinese bankn
 
 ![1](https://user-images.githubusercontent.com/52790721/116784200-8d401b00-aac5-11eb-99ab-9eb1529e0fc5.PNG)
 
-
+---
 **DATASET DESIGN AND IMPLEMENTATION** 
+---
 
 Our system requires images of Chinese banknote, unfortunately, there is no such dataset available, therefore, we designed our dataset. Its implementation relies on the important number of pictures taken, in total 1639 images of different values as described in table 3-1. Furthermore, the images were obtained from various angles and backgrounds to best stimulate the real-life scenario, knowing that the picture will not always be clear, or in the focus of the camera. Additionally, we aimed to have a robust dataset to accurately train and validate the performance of our model, hence each value of banknote includes a front a back image as resumed in the table below. 
 
