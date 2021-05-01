@@ -43,4 +43,11 @@ The relationship between the loss function, mAP, and number of iterations is des
 ---
 **_DETECTION RESULTS_**
 ---
-
+The follwing picture are the actual pictures obtained from the model.
+![1](https://user-images.githubusercontent.com/52790721/116785033-017cbd80-aaca-11eb-963c-50affc2314ae.jpg)
+![20_b](https://user-images.githubusercontent.com/52790721/116785039-07729e80-aaca-11eb-88e4-8439489ed1a0.jpg)
+![7](https://user-images.githubusercontent.com/52790721/116785040-09d4f880-aaca-11eb-9600-e7941134b8ef.jpg)
+![28](https://user-images.githubusercontent.com/52790721/116785041-0c375280-aaca-11eb-8d01-e96deaaf9782.jpg)
+![26](https://user-images.githubusercontent.com/52790721/116785042-0e99ac80-aaca-11eb-92ff-59731bccb1f3.jpg)
+![14](https://user-images.githubusercontent.com/52790721/116785045-12c5ca00-aaca-11eb-99af-879e21e8b5ba.jpg)
+![8](https://user-images.githubusercontent.com/52790721/116785047-15282400-aaca-11eb-9758-63769badd1d9.jpg)
