@@ -34,6 +34,12 @@ Additionally, some samples of the taken pictures along with their descriptive ba
 ---
 **_IMPLEMENTATION RESULT_** 
 ---
+![Figure_1](https://user-images.githubusercontent.com/52790721/116784729-66cfaf00-aac8-11eb-97ba-f87264defbc0.png)
 The relationship between the loss function, mAP, and number of iterations is described as follows, over the first 1000 iterations, the loss starts decreasing while the mAP begins to gradually increase and reach the value of 56%. Similarly, at the 2000th iterations, the loss keeps on decreasing conversely the `mAP` rises to 97%. From the next till the final iterations, the loss maintains its path while the mAP stabilized around 99%. Additionally, the mean average position per class and the unique recall `mAP@0.50` is given in the figure below.
 
-![Figure_1](https://user-images.githubusercontent.com/52790721/116784729-66cfaf00-aac8-11eb-97ba-f87264defbc0.png)
+![mAp_each_class](https://user-images.githubusercontent.com/52790721/116784958-9af79f80-aac9-11eb-996f-8f64ee4cee62.png)
+
+---
+**_DETECTION RESULTS_**
+---
+
