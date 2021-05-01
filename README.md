@@ -1,4 +1,4 @@
-## *CURRENCY_DETECTION_APP_BASED_AI*
+
 ---
 **_THE DESIGN AND IMPLEMENTATION OF AN IMAGE BASED PAPER CURRENCY DETECTION SYSTEM_**
 ---
@@ -10,10 +10,10 @@ a paper currency detection system (PCDS) is designed to detect the Chinese bankn
 ![1](https://user-images.githubusercontent.com/52790721/116784200-8d401b00-aac5-11eb-99ab-9eb1529e0fc5.PNG)
 
 ---
-**DATASET DESIGN AND IMPLEMENTATION** 
+**_DATASET DESIGN AND IMPLEMENTATION_** 
 ---
 
-Our system requires images of Chinese banknote, unfortunately, there is no such dataset available, therefore, we designed our dataset. Its implementation relies on the important number of pictures taken, in total 1639 images of different values as described in table 3-1. Furthermore, the images were obtained from various angles and backgrounds to best stimulate the real-life scenario, knowing that the picture will not always be clear, or in the focus of the camera. Additionally, we aimed to have a robust dataset to accurately train and validate the performance of our model, hence each value of banknote includes a front a back image as resumed in the table below. 
+Our system requires images of Chinese banknote, unfortunately, there is no such dataset available, therefore, we designed our dataset. Its implementation relies on the important number of pictures taken, in total 1639 images of different values as described in the table below. Furthermore, the images were obtained from various angles and backgrounds to best stimulate the real-life scenario, knowing that the picture will not always be clear, or in the focus of the camera. Additionally, we aimed to have a robust dataset to accurately train and validate the performance of our model, hence each value of banknote includes a front a back image as resumed in the table below. 
 
 |**Currency value** |**Number of images** |
 |--- |--- |
@@ -30,3 +30,10 @@ Our system requires images of Chinese banknote, unfortunately, there is no such 
 Additionally, some samples of the taken pictures along with their descriptive backgrounds.  This gives an insight into how our dataset was designed 
 
 ![1](https://user-images.githubusercontent.com/52790721/116784115-00955d00-aac5-11eb-9d31-a2a1131aede6.PNG)
+
+---
+**_IMPLEMENTATION RESULT_** 
+---
+The relationship between the loss function, mAP, and number of iterations is described as follows, over the first 1000 iterations, the loss starts decreasing while the mAP begins to gradually increase and reach the value of 56%. Similarly, at the 2000th iterations, the loss keeps on decreasing conversely the `mAP` rises to 97%. From the next till the final iterations, the loss maintains its path while the mAP stabilized around 99%. Additionally, the mean average position per class and the unique recall `mAP@0.50` is given in the figure below.
+
+![Figure_1](https://user-images.githubusercontent.com/52790721/116784729-66cfaf00-aac8-11eb-97ba-f87264defbc0.png)
