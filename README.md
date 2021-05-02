@@ -2,6 +2,7 @@
 ---
 **_THE DESIGN AND IMPLEMENTATION OF AN IMAGE BASED PAPER CURRENCY DETECTION SYSTEM_**
 ---
+`To learn how to train YOLOv3 (darknet) check: github.com/artynet/darknet-alexeyab`
 
 Despite the fact that the world is moving at an incredible rate toward the cashless payment, paper currencies still play a major role in our daily transactions due to its convenience. However, being able to correctly identify banknotes remains an issue for individuals visually impaired or blind due to the variant shape and texture of paper currency. Different techniques have been used by researchers to successfully recognize banknotes. Among those, algorithms and systems such as Scale Invariant Feature Transform (SIFT) and Currency Recognition System For Visually Impaired (CRSFVI) applied to Jordanian and Egyptian currency respectively achieve 71% and 89% accuracy
 
